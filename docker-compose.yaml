@@ -11,4 +11,4 @@ services:
     working_dir: /app
     volumes:
       - ./src:/app
-      - ./data:/data
+      - /home/data:/data
