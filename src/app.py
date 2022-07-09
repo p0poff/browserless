@@ -8,7 +8,6 @@ driver = webdriver.Remote("http://browser:4444/wd/hub", DesiredCapabilities.CHRO
 driver.get("https://alerts.in.ua")
 driver.set_window_size(1280, 1024)
 
-print(driver.title)
 time.sleep(5)
 screenshot = driver.save_screenshot('/data/map.png')
 driver.quit()
